@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .home-button {
+            position: fixed;
+            top: 1.7rem;
+            left: 1.5rem;
+            padding: 13px 13px 13px 15px;
+            background-color: #333;
+            border-radius: 13px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            z-index: 999;
+            transition: background-color 0.3s;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 30px;
+            align-items: center;
+        }
+
+        .home-button i {
+            margin-right: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home-button:hover {
+            background-color: #555; 
+        }
+    </style>
+</head>
+<body>
+    <a href="homepage.php">
+        <div class="home-button">
+            <i class="fa-solid fa-house"></i>
+        </div>
+    </a>
+</body>
+</html>
